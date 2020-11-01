@@ -1,0 +1,78 @@
+body 
+{    
+background: url('images/Sait.png') repeat gray;	
+color: #000000;   
+font-family: Segoe Script ;   
+font-size: 12px;
+}
+#header
+{
+position: fixed;
+background-image:url(images/header.png);
+left: 0;       
+width: 10000px;
+top: 0;    
+height: 174px; 	
+
+}
+.header-main button {
+background:transparent;
+border:none;
+outline:none;
+display:block;
+height:50px;
+width:300px;
+cursor:pointer;
+float: left;
+margin-top: 125;
+
+}
+
+.header-main button:not(:last-child) {
+border-right: none; 
+}
+.header-main:after {
+content: "";
+clear: both;
+display: table;
+}
+.header-main button:hover {
+background-color: #808080;
+}
+.window_1
+{
+float: left;
+background-image:url(Home/images/window_1.png);
+margin-left: 141px;
+margin-top: 254px;
+height:398px;
+width:836px;
+}
+.window_2
+{
+float: left;
+background-image:url(Home/images/window_2.png);
+margin-left: -835px;
+margin-top: 775px;
+height:183px;
+width:233px;
+
+}
+.window_3
+{
+background-image:url(Home/images/window_3.png);
+float: left;
+margin-left: -576px;
+margin-top: 775px;
+height:183px;
+width:233px;
+}
+.window_4
+{
+background-image:url(Home/images/window_4.png);
+float: left;
+margin-left: -318px;
+margin-top: 775px;;
+height:183px;
+width:233px;
+}
