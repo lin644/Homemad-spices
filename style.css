@@ -4,6 +4,10 @@ background: url('images/Sait.png') repeat gray;
 color: #000000;   
 font-family: Segoe Script ;   
 font-size: 12px;
+width: 100%;
+min-width: 1024px;
+max-width: 1920px;
+
 }
 #header
 {
